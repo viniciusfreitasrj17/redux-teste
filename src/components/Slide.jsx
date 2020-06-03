@@ -19,6 +19,4 @@ const Slide = ({ activeImage }) => {
   )
 }
 
-export default connect(state => ({
-  activeImage: state.activeImage
-}))(Slide);
+export default connect(state => ({ activeImage: state.activeImage }))(Slide);
